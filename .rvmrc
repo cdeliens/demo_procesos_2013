@@ -1,0 +1,2 @@
+rvm use ruby-1.9.3-p194@demo_procesos --create
+rvm_trust_rvmrcs_flag=1
