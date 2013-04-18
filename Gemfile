@@ -34,6 +34,17 @@ gem "guard-spork"
 gem "guard", ">= 0.6.2"
 gem 'guard-sass', :require => false
 
+group :test do
+  gem "rspec-rails"
+  gem "factory_girl_rails"
+  gem "capybara"
+  gem 'faker'
+  gem 'webmock'
+  gem 'vcr'
+  gem "timecop"
+end
+
+gem "shoulda-matchers", :group => [:development, :test]
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
