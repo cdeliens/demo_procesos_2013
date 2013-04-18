@@ -6,7 +6,6 @@ class Story < ActiveRecord::Base
   private
 
   def default_title
-    self.title =  "Default Message"
-    self.save
+    self.update_attributes(:title => "Default Message")
   end
 end
