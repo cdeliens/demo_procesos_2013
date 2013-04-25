@@ -15,16 +15,12 @@ Este proyecto tiene como objetivo demostrar actividades y tecnicas que podemos e
 
 Instalacion:
 
-Requerimientos
+Requerimientos:
 
--RVM
-  https://rvm.io/
+- RVM https://rvm.io/
+
+Pasos:
   
-
-
-
-
-
  * git clone git@github.com:cdeliens/demo_procesos_2013.git
 
  * cd demo_procesos_2013
@@ -32,10 +28,6 @@ Requerimientos
  * gem install bundler
 
  * bundle install
-
-
-- Para ejecutar las pruebas
-  
 
  * guard
 
