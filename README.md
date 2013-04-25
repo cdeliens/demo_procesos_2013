@@ -23,22 +23,22 @@ Requerimientos
 
 
 
-&lt;pre&gt;
 
-  git clone git@github.com:cdeliens/demo_procesos_2013.git
 
-  cd demo_procesos_2013
+ * git clone git@github.com:cdeliens/demo_procesos_2013.git
 
-  gem install bundler
+ * cd demo_procesos_2013
 
-  bundle install
-&lt;/pre&gt;
+ * gem install bundler
+
+ * bundle install
+
 
 - Para ejecutar las pruebas
   
-&lt;pre&gt;
-  guard
-&lt;/pre&gt;
+
+ * guard
+
 
 Con ENTER se ejecutan todas las pruebas
 
